@@ -137,15 +137,14 @@ export default {
           { required: true, message: "请填写联系电话", trigger: "blur" },
           { min: 11, max: 11, message: "长度不少于11位", trigger: "blur" }
           ]
-      }
-
-      
+      },
     };
   },
   props:['userInfo'],
   methods: {
     //添加用户
     submitForm(formName) {
+
       this.$refs[formName].validate(valid => {
         if (valid) {
           this.$store.dispatch('adduserInfo',this.ruleForm)

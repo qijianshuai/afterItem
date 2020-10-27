@@ -63,7 +63,11 @@
         <el-table-column
           prop="id"
           label="重置">
+             <template slot-scope="{row,$index}">
+           <el-button icon="el-icon-refresh-left" size="mini" circle  @click="resetPassword(row)"></el-button>
+            </template>
         </el-table-column>
+
         <el-table-column
           label="操作"
           width="300px"
@@ -77,7 +81,7 @@
             <el-button
               size="mini"
               type="danger"
-              @click="deleteInfo(row.bookId)"
+              @click="deleteInfo(row._id)"
               >删除</el-button>
           </template>
         </el-table-column>
@@ -87,7 +91,7 @@
 </template>
 
 <script>
-import {getUserList} from '../../api/index.js'
+import {getUserList,getResetPassword,getDeleteUser} from '../../api/index.js'
 export default {
   name: 'Dictionaries',
     data() {
@@ -106,15 +110,30 @@ export default {
           //设置表单项前文字的宽度
           formLabelWidth:'120px',
           isShowDialog:false,
+          userInfo:''
        }
       },
   mounted(){
     //获取用户类表
     this.getUserList()
+    this.judgeCommon()
   },
   methods: {
-    //点击添加按钮显示增加品牌的对话框
+        //判断当前用户的权限
+    judgeCommon(){
+      let obj = JSON.parse(localStorage.getItem('reader'))
+      this.userInfo=obj
+    },
+    //点击添加按钮显示增加用户的对话框
     isShowAdd(){
+            if(this.userInfo.common == 0){
+        this.isShowDialog = false
+        this.$message.error(
+            '您没有权限'
+          )
+          return
+      }
+
         this.$router.push('/addAuthor')
     },
     
@@ -132,10 +151,66 @@ export default {
     },
     //修改用户数据
     isShowUpdate(row){
+      if(this.userInfo.common == 0){
+        this.isShowDialog = false
+        this.$message.error(
+            '您没有权限'
+          )
+          return
+      }
         this.$router.push({
           path:'/addAuthor',
           query:row
         })
+    },
+        //重置密码
+    async resetPassword(row){   
+            if(this.userInfo.common == 0){
+        this.isShowDialog = false
+        this.$message.error(
+            '您没有权限'
+          )
+          return
+      } 
+      const result = await getResetPassword(row._id)
+    },
+    //删除用户
+    deleteInfo(_id){
+            if(this.userInfo.common == 0){
+        this.isShowDialog = false
+        this.$message.error(
+            '您没有权限'
+          )
+          return
+      }
+
+      this.$confirm('确定删除这一行吗', '提示', {
+          confirmButtonText: '确定',
+          cancelButtonText: '取消',
+          type: 'warning'
+        }).then(async() => {
+          //点击确定的时候调用接口
+          const result = await getDeleteUser(_id)
+          console.log('删除')
+          console.log(result)
+          if(result.code === 200){
+             this.$message({
+            type: 'success',
+            message: '删除成功!'
+          });
+          this.getUserList()
+          }else{
+             this.$message({
+            type: 'fail',
+            message: '删除失败!'
+          });
+          }
+        }).catch(() => {
+          this.$message({
+            type: 'info',
+            message: '已取消删除'
+          });          
+        });
     }
 }
 }

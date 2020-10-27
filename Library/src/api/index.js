@@ -56,3 +56,5 @@ export const getAddUser = ()=>({username,password,chinaName,team,phone,commo
 export const getUpdateUser = ({_id,chinaName,team,phone,freeze,common,username,password})=>ajax.get(`/updateUser?_id=${_id}&chinaName=${chinaName}&team=${team}&phone=${phone}&freeze=${freeze}&common=${common}&username=${username}&password=${password}`)
 //删除用户
 export const getDeleteUser = (_id)=>ajax.get('/deleteUser?_id='+ _id)
+//重置密码
+export const getResetPassword = (_id)=>ajax.get(`/resetPassword?_id=${_id}`)

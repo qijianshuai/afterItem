@@ -355,7 +355,6 @@ app.get('/updateUser',async (req,res)=>{
         })
     }
 })
-console.log(ress)
 })
 //删除
 app.get('/deleteUser',async (req,res)=>{
