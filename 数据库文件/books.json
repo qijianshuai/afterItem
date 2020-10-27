@@ -361,16 +361,6 @@
     "__v" : NumberInt(0)
 }
 { 
-    "_id" : ObjectId("5f93d737514fea35fcee3b4f"), 
-    "bookName" : "基因大时代", 
-    "authorId" : "8", 
-    "dicCategory" : "7", 
-    "dicChannel" : "1", 
-    "imgUrl" : "http://182.92.128.115:8080/group1/M00/00/7D/rBFUDF-T1y-AcAb-AAAl-d9UK7U074.jpg", 
-    "bookId" : NumberInt(100064), 
-    "__v" : NumberInt(0)
-}
-{ 
     "_id" : ObjectId("5f93d7fc514fea35fcee3b50"), 
     "bookName" : "我师兄实在太稳健了", 
     "authorId" : "10", 
@@ -378,5 +368,15 @@
     "dicChannel" : "1", 
     "imgUrl" : "http://182.92.128.115:8080/group1/M00/00/7D/rBFUDF-T1_mACcLfAABZTyqa-Sk182.jpg", 
     "bookId" : NumberInt(100065), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f9771b260acdb4cd0703312"), 
+    "bookName" : "峡谷之巅", 
+    "authorId" : "4", 
+    "dicCategory" : "1", 
+    "dicChannel" : "1", 
+    "imgUrl" : "http://182.92.128.115:8080/group1/M00/00/7E/rBFUDF-XcaeARnKCAABqQ2SPmlA667.jpg", 
+    "bookId" : NumberInt(100026), 
     "__v" : NumberInt(0)
 }

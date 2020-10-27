@@ -1,36 +1,72 @@
 { 
-    "_id" : ObjectId("5f84356d9ac9b80c5041a521"), 
+    "_id" : ObjectId("5f97866e558fcb2d5cea42ea"), 
     "username" : "admin", 
-    "password" : NumberInt(123), 
-    "__v" : NumberInt(0)
+    "password" : NumberInt(123456), 
+    "chinaName" : "埃德蒙", 
+    "team" : "软件开发组", 
+    "phone" : "17503702777", 
+    "freeze" : NumberInt(0), 
+    "common" : NumberInt(1)
 }
 { 
-    "_id" : ObjectId("5f8442688774a40d703a013c"), 
-    "username" : "cat", 
-    "password" : NumberInt(123), 
-    "__v" : NumberInt(0)
-}
-{ 
-    "_id" : ObjectId("5f8443278774a40d703a013d"), 
+    "_id" : ObjectId("5f97866e558fcb2d5cea42ec"), 
     "username" : "dog", 
     "password" : NumberInt(123), 
-    "__v" : NumberInt(0)
+    "chinaName" : "嗒嗒嗒", 
+    "team" : "嗒嗒", 
+    "phone" : "17569457895", 
+    "freeze" : NumberInt(1), 
+    "common" : NumberInt(1)
 }
 { 
-    "_id" : ObjectId("5f85006409e95b2c28dbb137"), 
+    "_id" : ObjectId("5f97866e558fcb2d5cea42ed"), 
     "username" : "pig", 
     "password" : NumberInt(123), 
+    "chinaName" : "猪", 
+    "team" : "软件开发组", 
+    "phone" : "17503705444", 
+    "freeze" : NumberInt(1), 
+    "common" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("5f97866e558fcb2d5cea42ee"), 
+    "username" : "xrrus", 
+    "password" : NumberInt(123456), 
+    "chinaName" : "艾德里", 
+    "team" : "软件测试组", 
+    "phone" : "17503702702", 
+    "freeze" : NumberInt(0), 
+    "common" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("5f97866e558fcb2d5cea42ef"), 
+    "username" : "gana", 
+    "password" : NumberInt(666666), 
+    "chinaName" : "飞翔", 
+    "team" : "用户", 
+    "phone" : "17503702702", 
+    "freeze" : NumberInt(0), 
+    "common" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f978d7b448f8d27d874778f"), 
+    "username" : "element", 
+    "password" : NumberInt(12345), 
+    "chinaName" : "组件库UI", 
+    "team" : "用户组", 
+    "phone" : "17503442702", 
+    "common" : NumberInt(0), 
+    "freeze" : NumberInt(0), 
     "__v" : NumberInt(0)
 }
 { 
-    "_id" : ObjectId("5f8ebee8d9bc272fe02fade8"), 
-    "username" : "17503702702", 
-    "password" : NumberInt(666666), 
-    "__v" : NumberInt(0)
-}
-{ 
-    "_id" : ObjectId("5f8ebf732b3a004600608c79"), 
-    "username" : "17503702777", 
-    "password" : NumberInt(666666), 
+    "_id" : ObjectId("5f97cfa3a223204bf89c6b57"), 
+    "username" : "123", 
+    "password" : NumberInt(123), 
+    "chinaName" : "123", 
+    "team" : "123", 
+    "phone" : "13488888568", 
+    "common" : NumberInt(1), 
+    "freeze" : NumberInt(0), 
     "__v" : NumberInt(0)
 }

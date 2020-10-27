@@ -5,9 +5,9 @@
     "createTime" : "2020-03-16T02:47:19.000+0000", 
     "updater" : "admin", 
     "updateTime" : "2020-03-17T07:31:21.000+0000", 
-    "name" : "罗门", 
-    "introduction" : "该作者很低调，没有留下简介，去看看ta的作品吧", 
-    "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/6051ed002ba148c1a39aabce847b364b.jpg"
+    "name" : "我是谁", 
+    "introduction" : "啥也不说", 
+    "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/ea772f20ae2a48c3b4d777b287533dbf.jpg"
 }
 { 
     "_id" : ObjectId("5f92b4ec3171b117bc5d18ca"), 
@@ -107,4 +107,114 @@
     "name" : "强大的猪", 
     "introduction" : "该作者很低调，没有留下简介，去看看ta的作品吧", 
     "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/2c641660474c4c06a8fe0e38fe7a74c4.jpg"
+}
+{ 
+    "_id" : ObjectId("5f961e4c8ec98b274ca1ef4f"), 
+    "id" : NumberInt(15), 
+    "creater" : "admin", 
+    "createTime" : "2020-03-17T07:35:33.000+0000", 
+    "updater" : "admin", 
+    "updateTime" : "2020-03-17T07:35:33.000+0000", 
+    "name" : "一梦江山", 
+    "introduction" : "该作者很低调，没有留下简介，去看看ta的作品吧", 
+    "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/04e95a1de9a74da3be6aa40d5ad9588e.jpg"
+}
+{ 
+    "_id" : ObjectId("5f961e4c8ec98b274ca1ef50"), 
+    "id" : NumberInt(16), 
+    "creater" : "admin", 
+    "createTime" : "2020-03-17T07:35:51.000+0000", 
+    "updater" : "admin", 
+    "updateTime" : "2020-03-17T07:35:51.000+0000", 
+    "name" : "我爱吃蓝莓", 
+    "introduction" : "该作者很低调，没有留下简介，去看看ta的作品吧", 
+    "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/030ca661286947b19e38bda30baada3e.jpeg"
+}
+{ 
+    "_id" : ObjectId("5f961e4c8ec98b274ca1ef51"), 
+    "id" : NumberInt(17), 
+    "creater" : "admin", 
+    "createTime" : "2020-03-17T07:36:01.000+0000", 
+    "updater" : "admin", 
+    "updateTime" : "2020-03-17T07:36:01.000+0000", 
+    "name" : "卡卡西", 
+    "introduction" : "该作者很低调，没有留下简介，去看看ta的作品吧", 
+    "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/b0f9f06d1072436fade11e5cce3c6936.jpg"
+}
+{ 
+    "_id" : ObjectId("5f961e4c8ec98b274ca1ef52"), 
+    "id" : NumberInt(18), 
+    "creater" : "admin", 
+    "createTime" : "2020-03-17T07:36:12.000+0000", 
+    "updater" : "admin", 
+    "updateTime" : "2020-03-17T07:36:12.000+0000", 
+    "name" : "草帽", 
+    "introduction" : "该作者很低调，没有留下简介，去看看ta的作品吧", 
+    "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/b9a042ef21274c0fafdb803ebd540372.jpg"
+}
+{ 
+    "_id" : ObjectId("5f961e4c8ec98b274ca1ef53"), 
+    "id" : NumberInt(19), 
+    "creater" : "admin", 
+    "createTime" : "2020-03-17T07:36:22.000+0000", 
+    "updater" : "admin", 
+    "updateTime" : "2020-03-17T07:36:22.000+0000", 
+    "name" : "水门", 
+    "introduction" : "该作者很低调，没有留下简介，去看看ta的作品吧", 
+    "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/cceee5ec0be44b06ab6b7f53f8c1f7cf.jpg"
+}
+{ 
+    "_id" : ObjectId("5f961e4c8ec98b274ca1ef54"), 
+    "id" : NumberInt(20), 
+    "creater" : "admin", 
+    "createTime" : "2020-03-17T07:36:34.000+0000", 
+    "updater" : "admin", 
+    "updateTime" : "2020-03-17T07:36:34.000+0000", 
+    "name" : "王子", 
+    "introduction" : "该作者很低调，没有留下简介，去看看ta的作品吧", 
+    "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/12249ad8f6c948639330fb19739815d4.jpg"
+}
+{ 
+    "_id" : ObjectId("5f961e4c8ec98b274ca1ef55"), 
+    "id" : NumberInt(21), 
+    "creater" : "admin", 
+    "createTime" : "2020-03-17T07:36:51.000+0000", 
+    "updater" : "admin", 
+    "updateTime" : "2020-03-17T07:36:51.000+0000", 
+    "name" : "索隆", 
+    "introduction" : "该作者很低调，没有留下简介，去看看ta的作品吧", 
+    "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/0c655358c70e45b0a6c2141f9fbe9a14.jpg"
+}
+{ 
+    "_id" : ObjectId("5f961e4c8ec98b274ca1ef56"), 
+    "id" : NumberInt(22), 
+    "creater" : "admin", 
+    "createTime" : "2020-03-17T07:37:00.000+0000", 
+    "updater" : "admin", 
+    "updateTime" : "2020-03-17T07:37:00.000+0000", 
+    "name" : "L", 
+    "introduction" : "该作者很低调，没有留下简介，去看看ta的作品吧", 
+    "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/e4ba59e409a940288b585a9fa7ebb3bd.jpeg"
+}
+{ 
+    "_id" : ObjectId("5f961e4c8ec98b274ca1ef57"), 
+    "id" : NumberInt(23), 
+    "creater" : "admin", 
+    "createTime" : "2020-03-17T07:37:12.000+0000", 
+    "updater" : "admin", 
+    "updateTime" : "2020-03-18T14:57:49.000+0000", 
+    "name" : "洛天依", 
+    "introduction" : "没人留，那我留", 
+    "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/6b726e10a61b4d15ad46be29e40483cd.jpg"
+}
+{ 
+    "_id" : ObjectId("5f961e4c8ec98b274ca1ef58"), 
+    "id" : NumberInt(24), 
+    "creater" : "admin", 
+    "createTime" : "2020-03-17T07:37:25.000+0000", 
+    "updater" : "admin", 
+    "updateTime" : "2020-03-17T07:37:25.000+0000", 
+    "name" : "魏无羡", 
+    "introduction" : "该作者很低调，没有留下简介，去看看ta的作品吧", 
+    "headImgUrl" : "http://books.zealon.cn/api/attachment/2020-03-17/8b3f72b0a2c74f07a54191787233f189.jpg"
 }
