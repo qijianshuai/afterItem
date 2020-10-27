@@ -1,0 +1,36 @@
+{ 
+    "_id" : ObjectId("5f84356d9ac9b80c5041a521"), 
+    "username" : "admin", 
+    "password" : NumberInt(123), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f8442688774a40d703a013c"), 
+    "username" : "cat", 
+    "password" : NumberInt(123), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f8443278774a40d703a013d"), 
+    "username" : "dog", 
+    "password" : NumberInt(123), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f85006409e95b2c28dbb137"), 
+    "username" : "pig", 
+    "password" : NumberInt(123), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f8ebee8d9bc272fe02fade8"), 
+    "username" : "17503702702", 
+    "password" : NumberInt(666666), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5f8ebf732b3a004600608c79"), 
+    "username" : "17503702777", 
+    "password" : NumberInt(666666), 
+    "__v" : NumberInt(0)
+}

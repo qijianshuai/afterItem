@@ -1,0 +1,60 @@
+{ 
+    "_id" : ObjectId("5f92b2cc3171b117bc5d18b0"), 
+    "id" : NumberInt(1), 
+    "text" : "都市小说"
+}
+{ 
+    "_id" : ObjectId("5f92b2cc3171b117bc5d18b1"), 
+    "id" : NumberInt(2), 
+    "text" : "东方玄幻"
+}
+{ 
+    "_id" : ObjectId("5f92b2cc3171b117bc5d18b2"), 
+    "id" : NumberInt(3), 
+    "text" : "武侠仙侠"
+}
+{ 
+    "_id" : ObjectId("5f92b2cc3171b117bc5d18b3"), 
+    "id" : NumberInt(4), 
+    "text" : "悬疑惊悚"
+}
+{ 
+    "_id" : ObjectId("5f92b2cc3171b117bc5d18b4"), 
+    "id" : NumberInt(5), 
+    "text" : "西方玄幻"
+}
+{ 
+    "_id" : ObjectId("5f92b2cc3171b117bc5d18b5"), 
+    "id" : NumberInt(6), 
+    "text" : "网游竞技"
+}
+{ 
+    "_id" : ObjectId("5f92b2cc3171b117bc5d18b6"), 
+    "id" : NumberInt(7), 
+    "text" : "科幻未来"
+}
+{ 
+    "_id" : ObjectId("5f92b2cc3171b117bc5d18b7"), 
+    "id" : NumberInt(8), 
+    "text" : "历史穿越"
+}
+{ 
+    "_id" : ObjectId("5f92b2cc3171b117bc5d18b8"), 
+    "id" : NumberInt(333), 
+    "text" : "英语阅读"
+}
+{ 
+    "_id" : ObjectId("5f92b2cc3171b117bc5d18b9"), 
+    "id" : NumberInt(1234), 
+    "text" : "林小冉"
+}
+{ 
+    "_id" : ObjectId("5f92b2cc3171b117bc5d18ba"), 
+    "id" : NumberInt(8520), 
+    "text" : "字典配置"
+}
+{ 
+    "_id" : ObjectId("5f92b2cc3171b117bc5d18bb"), 
+    "id" : NumberInt(123123), 
+    "text" : "邱琦雯"
+}

@@ -1,0 +1,25 @@
+{ 
+    "_id" : ObjectId("5f92b2243171b117bc5d18a8"), 
+    "id" : "1", 
+    "text" : "男生"
+}
+{ 
+    "_id" : ObjectId("5f92b2243171b117bc5d18a9"), 
+    "id" : "2", 
+    "text" : "女生"
+}
+{ 
+    "_id" : ObjectId("5f92b2243171b117bc5d18aa"), 
+    "id" : "3", 
+    "text" : "出版"
+}
+{ 
+    "_id" : ObjectId("5f92b2243171b117bc5d18ab"), 
+    "id" : "999", 
+    "text" : "wcv"
+}
+{ 
+    "_id" : ObjectId("5f92b2243171b117bc5d18ac"), 
+    "id" : "8520", 
+    "text" : "阿斯顿发个"
+}

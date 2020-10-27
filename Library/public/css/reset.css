@@ -1,0 +1,110 @@
+
+@import "./iconfont.css";
+ 
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li,
+pre,
+fieldset, lengend, button, input, textarea,
+th, td {
+    margin: 0;
+    padding: 0;
+    color: #666;
+}
+/* 
+ *该CSS文件，清除浏览器所有默认样式，可适用于其他网站页面，基础设置与风格设置
+ * */
+html,body,div,span,applet,object,iframe,h1,
+h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,
+big,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,
+strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,
+ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,
+tr,th,td,article,aside,canvas,details,embed,figure,figcaption,
+footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,
+audio,video,input,button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*兼容H5*/
+/*将这些元素转换为块元素*/
+article,aside,details,figcaption,figure,footer,header,hgroup,
+menu,nav,section{
+	display: block;
+}
+/*设置body行高为100%*/
+body{
+	line-height: 1;;
+}
+
+
+h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+
+address, cite, dfn, em, var, i{ font-style: normal; } /* 将斜体扶正 */
+b, strong{ font-weight: normal; } /* 将粗体扶细 */
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+
+/* 重置文本格式元素 */
+a { text-decoration: none; color: #666;}
+/* 重置表单元素 */
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: none; }
+button, input, select, textarea {
+    font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+/*除去项目符号*/
+}
+blockquote,q{
+	quotes: none;
+}
+/*除去引用双引号*/
+blockquote:before,blockquote:after,q:before,q:after{
+	content: "";
+	content: none;
+}
+/*单元格与边框距离合并*/
+table{
+	/* 1像素边框 */
+	border-collapse: collapse;
+	/* 单元格与单元格之间间距 */
+	border-spacing: 0;
+}
+/* 解决img底部留白 */
+img{
+	display: block;
+}
+/* 清除轮廓线 */
+input,button{
+	outline: none;
+}
+button{
+	border: none;
+}
+/* 风格设置 */
+body{
+	font: 12px/1.3 "微软雅黑",simsun,tahoma;
+	color: #333;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+a:hover{
+	color: #009f7f;
+	/* text-decoration: underline; */
+}
+/* 清除浮动与边框重叠 */
+.clearFix:after,.clearFix:before{
+	content: "";
+	display: table;
+	clear: both;
+}
